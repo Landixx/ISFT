@@ -40,10 +40,10 @@ int main () {
 
     do {
 
-        cout << "=== Menu ===" << endl;
-        cout << "1. Agregar asistencia." << endl;
-        cout << "2. Salir." << endl;
-        cout << "Seleccione una opcion: ";
+        cout << "=== Menu ===" 
+             << "1. Agregar asistencia." 
+             << "2. Salir." 
+             << "Seleccione una opcion: " 
         cin  >> opcion;
 
         cin.ignore (numeric_limits<streamsize>::max () , '\n');
